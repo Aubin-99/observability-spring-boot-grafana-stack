@@ -1,0 +1,13 @@
+package org.isep.observabilityspringbootgrafana;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class ObservabilitySpringBootGrafanaApplication {
+
+    public static void main(String[] args) {
+        SpringApplication.run(ObservabilitySpringBootGrafanaApplication.class, args);
+    }
+
+}
